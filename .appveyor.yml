@@ -9,10 +9,6 @@ platform:
   - x64
   - x86
 
-only:
-  branch:
-    - ocd1
-
 build_script:
   - SET arch=%platform%
   - IF "%platform%"=="x86" SET arch=Win32
